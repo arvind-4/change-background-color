@@ -1,17 +1,23 @@
-# Change-Background-Color
+# Background Colour Changer
 
-This is a Simple Website which Changes Background Color with a Click of a Button!
+A website that changes it's Background Colour.
 
-# Code
 
-### Steps:
-```
-cd /path/to/folder
-mkdir change_bgcolor
-cd change_bgcolor
-git clone https://github.com/Arvind-4/Change-Background-Color.git .
-Open index.html in Your Favorite Browser
-```
+##  🏆Getting Started: 
 
-This Website is Built on basic HTML-CSS-JavaScript. <br>
-[Click to have Fun](https://arvind-4.github.io/Change-Background-Color/)
+- Clone repository 
+
+```bash
+mkdir ~/Dev/background-colour-changer -p
+cd ~/Dev/background-colour-changer
+git clone https://github.com/Arvind-4/change-background-color.git .
+```  
+Open `index.html` on your favourite browser! 
+
+## 🎫 LICENSE:
+
+[MIT LICENSE](https://github.com/Arvind-4/change-background-color/blob/main/LICENSE)
+
+## 🆕 Change Log:
+
+[Change Log](https://github.com/Arvind-4/change-background-color/commits/main/)
