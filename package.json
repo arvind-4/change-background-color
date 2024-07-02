@@ -1,0 +1,24 @@
+{
+	"name": "change-background-color",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"format:all": "biome format --write .",
+		"lint": "biome lint --write .",
+		"prepare": "husky",
+		"format:html": "prettier --write \"**/*.html\"",
+		"format": "pnpm format:all && pnpm format:html",
+		"validate": "pnpm format && pnpm lint"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"husky": "^9.0.11",
+		"prettier": "^3.3.2",
+		"typescript": "^5.2.2",
+		"vite": "^5.2.0"
+	}
+}
