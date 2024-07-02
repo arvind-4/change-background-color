@@ -12,7 +12,13 @@ mkdir ~/Dev/background-colour-changer -p
 cd ~/Dev/background-colour-changer
 git clone https://github.com/Arvind-4/change-background-color.git .
 ```  
-Open `index.html` on your favourite browser! 
+
+- Run Dev Server 
+
+```bash
+pnpm install
+pnpm dev
+``` 
 
 ## 🎫 LICENSE:
 
