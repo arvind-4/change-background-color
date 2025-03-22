@@ -2,23 +2,22 @@
 
 A website that changes it's Background Colour.
 
+## 🏆Getting Started:
 
-##  🏆Getting Started: 
-
-- Clone repository 
+- Clone repository
 
 ```bash
 mkdir ~/Dev/background-colour-changer -p
 cd ~/Dev/background-colour-changer
 git clone https://github.com/Arvind-4/change-background-color.git .
-```  
+```
 
-- Run Dev Server 
+- Run Dev Server
 
 ```bash
 pnpm install
 pnpm dev
-``` 
+```
 
 ## 🎫 LICENSE:
 
