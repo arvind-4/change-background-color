@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@10.6.5",
   "scripts": {
     "dev": "vite --port=3000",
     "build": "tsc && vite build",
@@ -10,7 +11,7 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "prepare": "husky",
-    "validate": "pnpm test && pnpm lint",
+    "validate": "turbo test lint",
     "test": "vitest run"
   },
   "devDependencies": {
@@ -23,6 +24,7 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "husky": "^9.0.11",
     "jsdom": "^24.0.0",
+    "turbo": "^2.4.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vitest": "^1.3.1"
